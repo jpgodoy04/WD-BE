@@ -7,7 +7,6 @@ if (!isset($_SESSION['username'])) {
 ?>
 
 <?php
-session_start();
 require 'config.php';
 
 if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'admin') {
